@@ -98,12 +98,48 @@ fill: white;
 .rrss svg:hover{
     background-color: hsl(300, 69%, 71%);
 }
+@media screen and (max-width:1440px){
+    .texto h1{
+        font-size: 40px;
+        line-height: 1.4;
+    }
+    .texto p{
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 22.5px;
+        margin-top: -80px;
+    }
+    .boton{
+        margin-top: -80px;
+    }
+    body{
+       
+        background-image: url(images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position-y: 0px;
+        background-color: hsl(257, 40%, 49%);
+    }
+    .rrss{
+        display: flex;
+        justify-content: end;
+        padding-right: 170px;
+        gap: 10px;
+        padding-top: 150px;
+    }
+
+} 
+
 
 @media screen and (max-width:375px) {
     
     body{
         background-image: url(images/bg-mobile.svg);
-        background-size: 100%;
+        background-size: contain;
+        background-position-y: 0px;
+        background-position-x: 0px;
     }
     .caja{
         display: grid;
