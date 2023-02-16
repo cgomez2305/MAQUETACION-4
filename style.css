@@ -15,7 +15,9 @@ body{
 
     background-image: url(/images/bg-desktop.svg);
     background-repeat: no-repeat;
-    background-size: 88%;
+    background-size: 91%;
+    background-position-y: -35px;
+    background-position-x: -55px;
     background-color: hsl(257, 40%, 49%);
 }
 
